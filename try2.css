@@ -1,0 +1,18 @@
+body {
+    background-color: black;
+    overflow: hidden; /* Hide scrollbars */
+    font-family: monospace; /* Use a monospace font */
+  }
+
+  .matrix-code {
+    position: absolute;
+    top: 0;
+    color: #00FF00; /* Matrix green */
+    font-size: 18px;    
+    animation: fall 11s linear infinite;
+  }
+
+  @keyframes fall {
+    0% { top: -100px; } /* Start above the screen */
+    100% { top: 100vh; } /* End below the screen */
+  }
