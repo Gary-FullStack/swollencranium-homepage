@@ -7,7 +7,7 @@ body {
   .matrix-code {
     position: absolute;
     top: 0;
-    color: #00FF00; /* Matrix green */
+    color: #ff00f2; 
     font-size: 18px;    
     animation: fall 11s linear infinite;
   }
